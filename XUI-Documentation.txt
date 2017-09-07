@@ -1,0 +1,147 @@
+Control list-
+            FlatButton
+			Banner
+			BarGraph
+			BatteryPercentageAPI
+			CircleProgressBar1
+			CircleProgressBar2
+			ColorPicker
+			CustomPictureBox
+			CustomToolStrip
+			FlatMenuStrip
+			FlatProgressBar
+			FlatTab
+			FormHandle
+			Gauge
+			GradientPanel
+			GraphicsEditor
+			LineGraph
+			MaterialColorPane
+			ObjectAnimator
+			PieGraph
+			Switch
+			VolumeControlAPI
+			WifiPercentageAPI
+
+>>>>>>>>>>>> Documentation and usage of the controls
+
+XUIOBJECTANIMATOR - 
+	You can either place XUIObjectAnimator on your form or declare one programatically
+
+	EG - 		
+		XUIObjectAnimator ObjectAnimator = new XUIObjectAnimator();
+
+	Syntax - ControlAnimator.StandardAnimate(3 args)
+	arg0 is the object to animate
+	arg1 is the animation to perform
+	arg2 is an int from 1-10 that declares the animation speed
+	NOTE: you can animate forms, control, panels
+
+	EG -
+		ObjectAnimator.StandardAnimate(myButton, XUI.XUIObjectAnimator.StandardAnimation.Hop, 5);
+		ObjectAnimator.StandardAnimate(myButton, XUI.XUIObjectAnimator.StandardAnimation.ShootLeft, 5);
+		ObjectAnimator.StandardAnimate(myButton, XUI.XUIObjectAnimator.StandardAnimation.ShootRight, 5);
+		ObjectAnimator.StandardAnimate(myButton, XUI.XUIObjectAnimator.StandardAnimation.SlideLeft, 5);
+		ObjectAnimator.StandardAnimate(myButton, XUI.XUIObjectAnimator.StandardAnimation.SlideRight, 5);
+		ObjectAnimator.StandardAnimate(myButton, XUI.XUIObjectAnimator.StandardAnimation.SlideUp, 5);
+		ObjectAnimator.StandardAnimate(myButton, XUI.XUIObjectAnimator.StandardAnimation.SlideDown, 5);
+		ObjectAnimator.StandardAnimate(myButton, XUI.XUIObjectAnimator.StandardAnimation.SlugLeft, 5);
+		ObjectAnimator.StandardAnimate(myButton, XUI.XUIObjectAnimator.StandardAnimation.SlugRight, 5);
+
+	Syntax - ControlAnimator.ColorAnimate(5 args)
+	arg0 is the object to animate
+	arg1 is the animation color
+	arg2 is the animation
+	arg3 is a bool that sets to object backcolor to the color of arg2 after animation if true
+	arg4 is an int from 1-10 that declares the animation speed
+	NOTE: you can animate forms, control, panels
+	
+	EG - 
+		ObjectAnimator.ColorAnimate(Form1, Color.DodgerBlue, XUI.XUIObjectAnimation.ColorAnimation.FillEllipse, true, 10);
+		ObjectAnimator.ColorAnimate(Form1, Color.DodgerBlue, XUI.XUIObjectAnimation.ColorAnimation.FillSquare, true, 10);
+		ObjectAnimator.ColorAnimate(Form1, Color.DodgerBlue, XUI.XUIObjectAnimation.ColorAnimation.SplitFill, true, 5);
+		ObjectAnimator.ColorAnimate(Form1, Color.DodgerBlue, XUI.XUIObjectAnimation.ColorAnimation.StripeFill, true, 5);
+		ObjectAnimator.ColorAnimate(Form1, Color.DodgerBlue, XUI.XUIObjectAnimation.ColorAnimation.SlideFill, true, 5);
+		
+	Syntax - ControlAnimator.FormAnimate(3 args)
+	arg0 is the form to animate
+	arg1 is the animation to perform
+	arg2 is an int from 1-10 that declares the animation speed
+	NOTE: This option is for form loading/leaving only
+
+	EG -
+		ObjectAnimator.FormAnimate(myButton, XUI.XUIObjectAnimator.FormAnimation.FadeIn, 5);
+		ObjectAnimator.FormAnimate(myButton, XUI.XUIObjectAnimator.FormAnimation.FadeOut, 5);
+	
+XUIFORMHANDLE
+	Simply a handle linked to a control, your able to drag the form where you desire
+	
+XUIBARGRAPH
+	A gorgeous bar graph with multi orientation abillity, styles like Flat, Material and Bootstrap aswell and VERY customizable
+	
+XUILINEGRAPH
+	Yet another immaculate graph with alot of features
+
+XUIPIEGRAPH
+	Once again, a beautiful graph
+	
+XUISWITCH
+	A switch control with lots of styles like iOS, Android and Flat, very customizable, similiar to a checkbox but much better looking
+	
+XUIBANNER
+	A banner control! finally.
+	
+XUIGAUGE
+	A simple guage control, very nice UI aswell if i dont say myself
+	
+XUIGRADIENTPANEL
+	A panel with a gradient background, your able to change the gradient orientation and colors
+
+XUIMATERIALCOLORPANE
+	A material color pane with the best looking colors, also has SelectedColorChanged event
+	
+XUIVOLUMECONTROLLER
+	Yes, it seems as though this is the first volume control for winforms?
+	Set the volume, volume up, volume down and mute the volume with this
+	Ive also added VolumeChanged event.
+	
+XUIBATTERYPERCENTAGE
+	A component that returns the battery percentage
+	XUIBATTERYPERCENTAGE.Value() returns the value, the interval associated with the control is when the value is refreshed
+
+XUIWIFIPERCENTAGE
+	A component that returns the wifi percentage
+	XUIWIFIPERCENTAGE.Value() returns the value, the interval associated with the control is when the value is refreshed
+	
+XUIFLATBUTTON
+	A flat button control with backcolor/forecolor changing on hovering and clicking and the elipse abillity
+	
+XUICIRCLEPROGRESSBAR
+	A nice flat circle progress bar, alot of UI features including animation, Colors and text size
+	
+	Added event for percentageChanged aswell
+	
+XUICOLORPICKER
+	Finally, a color picker control. Your able to set the image and set and return the selected color.
+	Your also able to return the selected color as HEX(string)
+	
+XUICUSTOMPICTUREBOX
+	A custom picturebox with the anillity to be elipse, in an upcoming update it will feature the iOS parralax effect
+	
+XUICUSTOMTOOLSTRIP
+	A toolstrip with fixed border rendering
+	
+XUIFLATMENUSTRIP
+	A flat style menustrip with the abillity to change the hover and click item colors
+	
+XUIFLATPROGRESSBAR1
+	A bunifu-alike progressbar with a nice look and the abillity to change its colors and animation speed etc
+
+XUIFLATPROGRESSBAR2
+	A flat progressbar with a nice look and the abillity to change its colors and animation speed etc
+
+XUIFLATTAB
+	A flat style tab control, this tabcontrol contains the UI features everyone has been dying for within the tab control
+	
+XUIGRAPHICSEDITOR
+	An experimental control, bringing the same features as the paint program.
