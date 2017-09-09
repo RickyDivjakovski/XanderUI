@@ -15,6 +15,7 @@ Control list-
 			Gauge
 			GradientPanel
 			GraphicsEditor
+			JoyStick
 			LineGraph
 			MaterialColorPane
 			ObjectAnimator
@@ -73,17 +74,34 @@ XUIOBJECTANIMATOR -
 		ObjectAnimator.FormAnimate(myButton, XUI.XUIObjectAnimator.FormAnimation.FadeIn, 5);
 		ObjectAnimator.FormAnimate(myButton, XUI.XUIObjectAnimator.FormAnimation.FadeOut, 5);
 	
-XUIFORMHANDLE
-	Simply a handle linked to a control, your able to drag the form where you desire
-	
 XUIBARGRAPH
 	A gorgeous bar graph with multi orientation abillity, styles like Flat, Material and Bootstrap aswell and VERY customizable
 	
+	Usage:
+	Create a list of int's and set xuiBarGraph.Items to the list
+	
+	EG -
+		    List<int> MyItems = new List<int>();
+            MyItems.Clear();
+            MyItems.Add(50);
+            MyItems.Add(75);
+            MyItems.Add(10);
+            xuiBarGraph1.Items = MyItems;
+	
 XUILINEGRAPH
 	Yet another immaculate graph with alot of features
+	
+	Usage: same as bar graph
 
+XUIFORMHANDLE
+	Simply a handle linked to a control, your able to drag the form where you desire
+	
 XUIPIEGRAPH
 	Once again, a beautiful graph
+	
+XUIJOYSTICK
+	A joystick control, your able to set the background image, joystick color, sensitivity, the object to move and if that object can leave the screen or not
+	Additionally you can detect the directions and ive added a OnDirectionChanged() event.
 	
 XUISWITCH
 	A switch control with lots of styles like iOS, Android and Flat, very customizable, similiar to a checkbox but much better looking
