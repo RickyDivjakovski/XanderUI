@@ -1,28 +1,31 @@
 Control list-
-            FlatButton
-			Banner
+            Banner
 			BarGraph
-			BatteryPercentageAPI
-			CircleProgressBar1
-			CircleProgressBar2
+			CustomButton
+			CircleProgressBar
+			BatteryPercentge
+			CheckBox
+			ColorPane
 			ColorPicker
 			CustomPictureBox
 			CustomToolStrip
-			FlatMenuStrip
-			FlatProgressBar
-			FlatTab
+			CustomMenuStrip
+			ProgressBar
+			CustomTabControl
 			FormHandle
 			Gauge
 			GradientPanel
-			GraphicsEditor
 			JoyStick
 			LineGraph
-			MaterialColorPane
 			ObjectAnimator
 			PieGraph
+			CustomRadio
+			CustomSlider
+			SuperButton
 			Switch
-			VolumeControlAPI
-			WifiPercentageAPI
+			VolumeController
+			WifiPercentage
+			
 
 >>>>>>>>>>>> Documentation and usage of the controls
 
@@ -110,12 +113,12 @@ XUIBANNER
 	A banner control! finally.
 	
 XUIGAUGE
-	A simple guage control, very nice UI aswell if i dont say myself
+	A simple guage control, Multiple styles and very customizable, very nice UI aswell if i dont say myself
 	
 XUIGRADIENTPANEL
-	A panel with a gradient background, your able to change the gradient orientation and colors
+	A panel with a gradient background, your able to change the gradient orientation and style and multiple colors
 
-XUIMATERIALCOLORPANE
+XUICOLORPANE
 	A material color pane with the best looking colors, also has SelectedColorChanged event
 	
 XUIVOLUMECONTROLLER
@@ -131,12 +134,12 @@ XUIWIFIPERCENTAGE
 	A component that returns the wifi percentage
 	XUIWIFIPERCENTAGE.Value() returns the value, the interval associated with the control is when the value is refreshed
 	
-XUIFLATBUTTON
-	A flat button control with backcolor/forecolor changing on hovering and clicking and the elipse abillity
+XUIBUTTON
+	A button control with backcolor/forecolor changing on hovering and clicking and the elipse abillity
+	Also the abillity to choose the text alignment and add an image and also change the image position
 	
 XUICIRCLEPROGRESSBAR
-	A nice flat circle progress bar, alot of UI features including animation, Colors and text size
-	
+	A nice circle progress bar, alot of UI features including animation, Colors and text size, very smooth
 	Added event for percentageChanged aswell
 	
 XUICOLORPICKER
@@ -144,7 +147,7 @@ XUICOLORPICKER
 	Your also able to return the selected color as HEX(string)
 	
 XUICUSTOMPICTUREBOX
-	A custom picturebox with the anillity to be elipse, in an upcoming update it will feature the iOS parralax effect
+	A custom picturebox with the abillity to be elipse, in an upcoming update it will feature the iOS parralax effect
 	
 XUICUSTOMTOOLSTRIP
 	A toolstrip with fixed border rendering
@@ -152,14 +155,21 @@ XUICUSTOMTOOLSTRIP
 XUIFLATMENUSTRIP
 	A flat style menustrip with the abillity to change the hover and click item colors
 	
-XUIFLATPROGRESSBAR1
-	A bunifu-alike progressbar with a nice look and the abillity to change its colors and animation speed etc
-
-XUIFLATPROGRESSBAR2
-	A flat progressbar with a nice look and the abillity to change its colors and animation speed etc
+XUIFLATPROGRESSBAR
+	A flat progress bar with multiple styles and options, styles include(Flat, Material and iOS)
 
 XUIFLATTAB
 	A flat style tab control, this tabcontrol contains the UI features everyone has been dying for within the tab control
+
+XUICHECKBOX
+	A checkbox control with iOS styles anf Flat styles, also supports changing color on hover
 	
-XUIGRAPHICSEDITOR
-	An experimental control, bringing the same features as the paint program.
+XUIRADIO
+	A radio control with iOS, Android and Flat styles, also supports changing color on hover
+	
+XUISLIDER
+	A slider control with MacOS, Windows10, Android, Flat nd Material styles, also has a feature called quickHopping
+	Enabling you to jump anywhere on the slider with 1 click
+	
+XUISUPERBUTTON
+	Exactly like the button control, but also like a radio

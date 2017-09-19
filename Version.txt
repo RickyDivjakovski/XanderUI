@@ -1,14 +1,4 @@
-Current : 1.0.2
-Stable : 1.0.2
-
-Changelog:
-
-V1.0.2 - 
-Bug fix barGraph crashing when items = null
-
-V1.0.1 - 
-Added new control(Joystick)
-Various transparency issues fixed
-
-V1.0.0 - 
-Initial release
+Current : 1.1.0
+Target framework: 4.5
+Best performing framework 4.5
+Stable : 1.1.0
