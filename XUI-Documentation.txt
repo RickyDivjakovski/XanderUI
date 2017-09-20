@@ -1,9 +1,10 @@
 Control list-
             Banner
 			BarGraph
+			Clock
 			CustomButton
 			CircleProgressBar
-			BatteryPercentge
+			BatteryPercentgeAPI
 			CheckBox
 			ColorPane
 			ColorPicker
@@ -24,7 +25,7 @@ Control list-
 			SuperButton
 			Switch
 			VolumeController
-			WifiPercentage
+			WifiPercentageAPI
 			
 
 >>>>>>>>>>>> Documentation and usage of the controls
@@ -163,6 +164,10 @@ XUIFLATTAB
 
 XUICHECKBOX
 	A checkbox control with iOS styles anf Flat styles, also supports changing color on hover
+	
+	
+XUICLOCK
+	An good looking clock control, still yet to add some custom events but overall functional for UI
 	
 XUIRADIO
 	A radio control with iOS, Android and Flat styles, also supports changing color on hover

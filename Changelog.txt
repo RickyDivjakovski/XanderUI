@@ -1,5 +1,12 @@
 Changelog:
 
+V1.1.5 -
+Updates to battery and wifi percentage, they are now API's
+Battery and wifi percentage API's now use a background thread
+Added clock control
+Fixed buffer context allocation on all controls with an optimized buffer
+Fixed resize bug for all controls effected
+
 V1.1.0 - 
 Major code cleanup and optimization
 Removed CircleProgressBar1

@@ -1,4 +1,4 @@
-Current : 1.1.0
+Current : 1.1.5
 Target framework: 4.5
 Best performing framework 4.5
-Stable : 1.1.0
+Stable : 1.1.5
