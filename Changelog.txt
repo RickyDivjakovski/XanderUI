@@ -1,5 +1,9 @@
 Changelog:
 
+V1.2.0 -
+Parallax is finally implemented in the custom picturebox control
+Bug fixed with SplashScreen, no quick flicker of main form
+
 V1.1.9 -
 Upgrades to the FormHandle control, maximizes on drag to top of the screen
 Fixed bugs with the ObjectEllipse control
@@ -24,7 +28,7 @@ Enhanced Circle progressbar animation
 Double buffered all animated controls
 Improvements to joystick control
 Joystick can now move objects(keep onscreen or let go off screen)
-Flat progressbar not supports styles(Flat, IOS, Material)
+Flat progressbar now supports styles(Flat, IOS, Material)
 Improvements to Event handling
 Now targetted at .net framework 4.5
 Minor improvements targetting .net framework 4.0(ObjectAnimator unable to be run on 4.0 as of yet)

@@ -24,7 +24,7 @@ Control list-
 			CustomRadio
 			CustomSlider
 			SuperButton
-			Splash
+			SplashScreen
 			Switch
 			VolumeController
 			WifiPercentageAPI
@@ -94,7 +94,7 @@ XUIBARGRAPH
             MyItems.Add(10);
             xuiBarGraph1.Items = MyItems;
 	
-XUISPLASH
+XUISPLASHSCREEN
 	A customizable splash screen control with ALOT of options, as this is a component you will need to trial and error the settings to suit your needs
 	
 	Usage:
@@ -182,7 +182,6 @@ XUIFLATTAB
 
 XUICHECKBOX
 	A checkbox control with iOS styles anf Flat styles, also supports changing color on hover
-	
 	
 XUICLOCK
 	An good looking clock control, still yet to add some custom events but overall functional for UI
