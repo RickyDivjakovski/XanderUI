@@ -19,10 +19,12 @@ Control list-
 			JoyStick
 			LineGraph
 			ObjectAnimator
+			ObjectEllipse
 			PieGraph
 			CustomRadio
 			CustomSlider
 			SuperButton
+			Splash
 			Switch
 			VolumeController
 			WifiPercentageAPI
@@ -92,6 +94,19 @@ XUIBARGRAPH
             MyItems.Add(10);
             xuiBarGraph1.Items = MyItems;
 	
+XUISPLASH
+	A customizable splash screen control with ALOT of options, as this is a component you will need to trial and error the settings to suit your needs
+	
+	Usage:
+	After InitializeComponent() in mainform initialize the splash with the mainform as an arg
+	
+	EG -
+			xuiSplash1.initializeLoader(FindForm());
+			// or
+			xuiSplash1.initializeLoader(this);
+			// or
+			xuiSplash1.initializeLoader(myFormName);
+	
 XUILINEGRAPH
 	Yet another immaculate graph with alot of features
 	
@@ -99,6 +114,9 @@ XUILINEGRAPH
 
 XUIFORMHANDLE
 	Simply a handle linked to a control, your able to drag the form where you desire
+	
+XUIOBJECTELLIPSE
+	Adds rounded corners to a form or object
 	
 XUIPIEGRAPH
 	Once again, a beautiful graph

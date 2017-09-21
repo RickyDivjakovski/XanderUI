@@ -1,5 +1,13 @@
 Changelog:
 
+V1.1.9 -
+Upgrades to the FormHandle control, maximizes on drag to top of the screen
+Fixed bugs with the ObjectEllipse control
+Added Splash, a customizable splash control, see documentation for usage
+
+V1.1.6 -
+Implemented ObjectEllipse, allowing you to make forms or controls have round corners of completely elliptical
+
 V1.1.5 -
 Updates to battery and wifi percentage, they are now API's
 Battery and wifi percentage API's now use a background thread
