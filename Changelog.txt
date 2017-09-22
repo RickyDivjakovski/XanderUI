@@ -1,5 +1,10 @@
 Changelog:
 
+V1.2.3 -
+Changes to the object animator to allow executing on lower frameworks
+Now targettedd at .net 4.0
+Added BackgroundSleeper component
+
 V1.2.0 -
 Parallax is finally implemented in the custom picturebox control
 Bug fixed with SplashScreen, no quick flicker of main form

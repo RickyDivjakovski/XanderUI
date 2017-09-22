@@ -5,6 +5,7 @@ Control list-
 			CustomButton
 			CircleProgressBar
 			BatteryPercentgeAPI
+			BackgroundSleeper
 			CheckBox
 			ColorPane
 			ColorPicker
@@ -111,6 +112,16 @@ XUILINEGRAPH
 	Yet another immaculate graph with alot of features
 	
 	Usage: same as bar graph
+	
+XUIBACKGROUNDSLEEPER
+	A control allowing you to delay execution without freezing the UI
+	
+	Usage: 
+	BackgroundSleeper.sleep(Milliseconds)
+	
+	EG -
+		//Stop code execution for 3 seconds
+		BackgroundSleeper.Sleep(3000); 
 
 XUIFORMHANDLE
 	Simply a handle linked to a control, your able to drag the form where you desire
