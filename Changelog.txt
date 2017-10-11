@@ -1,8 +1,21 @@
 Changelog:
 
+V1.3.0 -
+Implemented Sliding panel control
+Updated weather client
+Implemented segment control with iOS, Android and Material styles
+Implemented int rounding class
+Implemented percentage class
+Implemented NavigationBars with iOS, Android and Material styles
+
+V1.2.8 -
+Implemented WeatherClient, based on WebClient with parsing
+Implemented custom FileSystemWatcher with exposed events OnFile(deleted, changed, renamed, created) along with out putting
+Added custom groupbox with the abillity to change border color, this control is made from scratch
+
 V1.2.3 -
 Changes to the object animator to allow executing on lower frameworks
-Now targettedd at .net 4.0
+Now targetted at .net 4.0
 Added BackgroundSleeper component
 
 V1.2.0 -

@@ -1,11 +1,13 @@
 Control list-
+			BatteryPercentgeAPI
+			BackgroundSleeper
             Banner
 			BarGraph
 			Clock
 			CustomButton
+			CustomFSWatcher
+			CustomGroupbox
 			CircleProgressBar
-			BatteryPercentgeAPI
-			BackgroundSleeper
 			CheckBox
 			ColorPane
 			ColorPicker
@@ -19,17 +21,23 @@ Control list-
 			GradientPanel
 			JoyStick
 			LineGraph
+			NavigationBar
 			ObjectAnimator
 			ObjectEllipse
 			PieGraph
 			CustomRadio
 			CustomSlider
+			SlidingPanel
+			Segment
 			SuperButton
 			SplashScreen
 			Switch
 			VolumeController
+			WeatherClient
 			WifiPercentageAPI
 			
+Extension methods-
+			IntRound
 
 >>>>>>>>>>>> Documentation and usage of the controls
 
@@ -123,6 +131,16 @@ XUIBACKGROUNDSLEEPER
 		//Stop code execution for 3 seconds
 		BackgroundSleeper.Sleep(3000); 
 
+XUINAVIGATIONBAR
+	A navbar with multiple styles, based on a title, a left item and a right item, its completely customizable
+
+XUISEGMENT
+	A segment control as featured in the iOS an Android operating systems, multiple styles, selected item is based on index 0-no of items -1
+
+XUISlidingPanel
+	An animated sliding panel control, simply set the collapse control and that control will stay visible, while all other controls become 
+	invisble when the slider is collapsed
+	
 XUIFORMHANDLE
 	Simply a handle linked to a control, your able to drag the form where you desire
 	
