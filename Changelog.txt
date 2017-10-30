@@ -1,5 +1,18 @@
 Changelog:
 
+V1.4.0 -
+Added filter to CustomPicturebox
+Implemented FormDesigns, Material, MacOS and Ubuntu
+Experimental FormDropShadow
+Fixed XUICheckbox bug
+Implemented ImageFilter class Contrast, Grayscale, ColorBalance, ColorReplace, Invert, SemiTransparentColor and Vignette
+Redesigned button control, added styles Material, Dark, MacOS, Invert, MaterialRounded, Material ellipse
+--SEMI -- Buttons now have option to make them Super
+Added center image option to button
+-- SEMI -- Removed superButton
+-- SEMI -- Switches now support changing colors for all styles
+Added XUI card control
+
 V1.3.0 -
 Implemented Sliding panel control
 Updated weather client

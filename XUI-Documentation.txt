@@ -4,6 +4,7 @@ Control list-
             Banner
 			BarGraph
 			Clock
+			Card control
 			CustomButton
 			CustomFSWatcher
 			CustomGroupbox
@@ -17,6 +18,8 @@ Control list-
 			ProgressBar
 			CustomTabControl
 			FormHandle
+			FormStyle
+			FormDropShadow
 			Gauge
 			GradientPanel
 			JoyStick
