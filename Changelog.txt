@@ -1,5 +1,29 @@
 Changelog:
 
+(Next)V1.7.X - 
+Added XUIMessageBox control(formDesign)
+Fixed Buttons flickering while hovering on FlatTab handle
+Complete the widgets panel
+
+V1.7.0 - 
+Fixed changes hidden until FormDesign is refreshed
+Fixed ExtendedFSWatcher firing OnChanged twice
+Fixed ExtendedFSWatcher Not supporting single file watch
+Added OnStarted event to ExtendedFSWatcher 
+Added OnStopped event to ExtendedFSWatcher 
+Fixed auto hide form border style on add FormDesign
+Fixed auto revert form border style to default on disposing FormDesign
+Fixed changing FormDesign BackColor
+Perfected FormDesign control
+Fixed auto revert form border style to default on disposing ObjectEllipse
+BarGraph supports integers more than 100 now
+Switches support color changing on any style
+FlatProgressBar now supports a border color
+
+V1.5.0 -
+Line graph now supports numbers higher than 100
+-- SEMI -- Bar graph now supports numbers higher than 100
+
 V1.4.0 -
 Added filter to CustomPicturebox
 Implemented FormDesigns, Material, MacOS and Ubuntu

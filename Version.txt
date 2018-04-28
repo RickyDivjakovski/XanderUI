@@ -1,4 +1,4 @@
-Current : 1.4.0
+Current : 1.7.0
 Target framework: 4.0
 Best performing framework: All
-Stable : 1.4.0
+Stable : 1.7.0

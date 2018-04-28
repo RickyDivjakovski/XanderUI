@@ -1,25 +1,24 @@
 Control list-
-			BatteryPercentgeAPI
 			BackgroundSleeper
             Banner
 			BarGraph
-			Clock
-			Card control
-			CustomButton
-			CustomFSWatcher
-			CustomGroupbox
-			CircleProgressBar
+			BatteryPercentgeAPI
+			Button
+			Card
 			CheckBox
+			CircleProgressBar
+			Clock
 			ColorPane
 			ColorPicker
+			CustomGroupbox
 			CustomPictureBox
 			CustomToolStrip
-			CustomMenuStrip
-			ProgressBar
-			CustomTabControl
+			ExtendedFSWatcher
+            FlatMenuStrip
+			FlatProgressBar
+			FlatTab
+			FormDesign
 			FormHandle
-			FormStyle
-			FormDropShadow
 			Gauge
 			GradientPanel
 			JoyStick
@@ -28,12 +27,12 @@ Control list-
 			ObjectAnimator
 			ObjectEllipse
 			PieGraph
-			CustomRadio
-			CustomSlider
-			SlidingPanel
+			Radio
 			Segment
-			SuperButton
+			Slider
+			SlidingPanel
 			SplashScreen
+			SuperButton
 			Switch
 			VolumeController
 			WeatherClient
@@ -43,6 +42,12 @@ Extension methods-
 			IntRound
 
 >>>>>>>>>>>> Documentation and usage of the controls
+
+XUIEXTENDEDFSWATCHER
+	An extended version of FileSystemWatcher with various bug fixes, and additions.
+	To start the service, no more seting a bool, simply FsWatcher.StartService()
+	Same for stopping the service.
+	Ive also extended the buffer size to reduce running out of memory exceptions being thrown
 
 XUIOBJECTANIMATOR - 
 	You can either place XUIObjectAnimator on your form or declare one programatically
@@ -125,7 +130,7 @@ XUILINEGRAPH
 	Usage: same as bar graph
 	
 XUIBACKGROUNDSLEEPER
-	A control allowing you to delay execution without freezing the UI
+	A control allowing you to delay execution without freezing the UI(Non async)
 	
 	Usage: 
 	BackgroundSleeper.sleep(Milliseconds)
@@ -140,7 +145,7 @@ XUINAVIGATIONBAR
 XUISEGMENT
 	A segment control as featured in the iOS an Android operating systems, multiple styles, selected item is based on index 0-no of items -1
 
-XUISlidingPanel
+XUISLIDINGPANEL
 	An animated sliding panel control, simply set the collapse control and that control will stay visible, while all other controls become 
 	invisble when the slider is collapsed
 	
@@ -227,3 +232,11 @@ XUISLIDER
 	
 XUISUPERBUTTON
 	Exactly like the button control, but also like a radio
+
+XUISEGMENT
+	A segment control like in Android and IOS.
+	Supports multiple styles.
+
+XUINAVIGATIONBAR
+	A navbar control like in Android and IOS.
+	Supports multiple styles
