@@ -5,7 +5,8 @@ Added XUIMessageBox control(formDesign)
 Fixed Buttons flickering while hovering on FlatTab handle
 Complete the widgets panel
 
-V1.7.0 - 
+V1.7.1 - 
+Free version no longer supported
 Fixed changes hidden until FormDesign is refreshed
 Fixed ExtendedFSWatcher firing OnChanged twice
 Fixed ExtendedFSWatcher Not supporting single file watch
